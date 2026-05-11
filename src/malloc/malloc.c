@@ -6,11 +6,6 @@
 #include <stdio.h> // perror()
 #include <unistd.h> // getpagesize()
 
-void create_zone()
-{
-
-}
-
 void *malloc(size_t n)
 {
 	static t_zone *zones = NULL;
